@@ -89,6 +89,7 @@ public class game extends JFrame{
 			JOptionPane.showMessageDialog(null,a,"Result",JOptionPane.INFORMATION_MESSAGE);
 			}
 		});
+		
 		//if user chose Scissor
 		jbtScissor.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e) {
@@ -99,6 +100,7 @@ public class game extends JFrame{
 				userinput = 0;
 				}
 		});
+		
 		//if user chose Rock
 		jbtRock.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e) {
@@ -109,6 +111,7 @@ public class game extends JFrame{
 
 			}
 		});
+		
 		//if user chose Paper
 		jbtPaper.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e) {
@@ -130,6 +133,7 @@ public class game extends JFrame{
 			frame.setSize(500,400);
 			frame.setVisible(true);
 		}
+		
 		//the method to compare computer and user choose
 		public String compile(int computer,int userchose){
 					
